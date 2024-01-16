@@ -1,0 +1,58 @@
+/* h1 {
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 300;
+}
+
+p {
+    font-family: 'Segoe Ui', sans-serif;
+    font-weight: 400;
+} */
+
+@font-face {
+    font-family: "League Spartan";
+    src: url(../fonts/LeagueSpartan-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: "League Spartan";
+    src: url(../fonts/LeagueSpartan-Regular.ttf);
+}
+
+@font-face {
+    font-family: "League Spartan";
+    src: url(../fonts/Segoe\ UI\ Bold.ttf);
+}
+
+@font-face {
+    font-family: "League Spartan";
+    src: url(../fonts/Segoe\ UI.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,li {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 70px;
+}
