@@ -56,3 +56,23 @@ ul,li {
 h1 {
     font-size: 70px;
 }
+
+header {
+    background-color: #fff;
+}
+
+.container {
+    width: 1920px;
+    margin: 0 auto;
+}
+
+.nav {
+   display: flex;
+   justify-content: space-around
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
