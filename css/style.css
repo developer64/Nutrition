@@ -9,22 +9,22 @@ p {
 } */
 
 @font-face {
-    font-family: "League Spartan";
+    font-family: "League Spartan SemiBild";
     src: url(../fonts/LeagueSpartan-SemiBold.ttf);
 }
 
 @font-face {
-    font-family: "League Spartan";
+    font-family: "League Spartan Regular";
     src: url(../fonts/LeagueSpartan-Regular.ttf);
 }
 
 @font-face {
-    font-family: "League Spartan";
-    src: url(../fonts/Segoe\ UI\ Bold.ttf);
+    font-family: "Segoe UI Bold";
+    src: url(../fonts/Segoe UI\ UI\ Bold.ttf);
 }
 
 @font-face {
-    font-family: "League Spartan";
+    font-family: "Segoe";
     src: url(../fonts/Segoe\ UI.ttf);
 }
 
@@ -75,4 +75,20 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.menu a {
+    color: rgb(0, 0, 0);
+    font-family: Segoe UI, sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 37px;
+    text-align: left;
+    margin-left: 100px;
+}
+
+.menu a:hover {
+    font-size: 32px;
+    color: #98d67d;
+    margin-left: 0;
 }
