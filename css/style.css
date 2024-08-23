@@ -87,8 +87,7 @@ header {
     margin-left: 100px;
 }
 
-.menu a:hover {
-    font-size: 32px;
+.menu :first-child a:hover {
+    font-size: px;
     color: #98d67d;
-    margin-left: 0;
 }
