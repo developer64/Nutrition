@@ -58,12 +58,15 @@ h1 {
 }
 
 header {
+    width: 1920px;
+    margin: 0 auto;
     background-color: #fff;
+
 }
 
 .container {
-    width: 1920px;
-    margin: 0 auto;
+    background-image: url(../images/bg\ vector.png);
+    margin: 5px;
 }
 
 .nav {
@@ -87,6 +90,7 @@ header {
     margin-left: 100px;
 }
 
-.menu :first-child a:hover {
+.menu :first-child a {
     color: #98d67d;
+    text-decoration: underline;
 }
